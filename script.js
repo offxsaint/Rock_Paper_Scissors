@@ -23,8 +23,8 @@ function getcomputerchoice() {
     return optionchoice;
 }
 
-function playround (computerchoice, humanchoice) {
-    if (computerchoice === humanchoice) {
+function playround (humanchoice, computerchoice) {
+    if (humanchoice === computerchoice) {
         console.log("It's a tie!");
     }
     else if (
